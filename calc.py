@@ -5,6 +5,8 @@ def compute(expression):
         return int(num0) + int(num1)
     elif operator == '-':
         return int(num0) - int(num1)
+    elif operator == '/':
+        return int(num0) / int(num1)
     else:
         print('unknown operator!')
         return None
